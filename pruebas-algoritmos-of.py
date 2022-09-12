@@ -216,9 +216,9 @@ def flujoOptico(alpha, delta, method=1, kernel_size=0, iter=1, verbose=False):
     for i in range(1,888,2):#de2000
         print(i)
         
-        img_before=cv2.imread("imgOF30/imgOF_"+str(i)+".png")
+        img_before=cv2.imread("../secuencias/imgOF30/imgOF_"+str(i)+".png")
 
-        img_after= cv2.imread("imgOF30/imgOF_"+str(i+1)+".png")
+        img_after= cv2.imread("../secuencias/imgOF30/imgOF_"+str(i+1)+".png")
 
         
         cv2.imshow("img", img_before)
